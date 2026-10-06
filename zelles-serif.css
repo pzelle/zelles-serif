@@ -1,0 +1,35 @@
+/* Zelles Serif: the face pzelles.com and rankingparty.nyc are set in.
+   Source of truth: https://github.com/pzelle/zelles-serif
+   Load it with:
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/pzelle/zelles-serif@main/zelles-serif.css">
+   and use:  font-family: 'Zelles Serif', 'Times New Roman', Times, serif;
+   The url()s are relative, so this file works from the CDN or a local copy. */
+
+@font-face {
+  font-family: 'Zelles Serif';
+  src: url('zelles-serif-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Zelles Serif';
+  src: url('zelles-serif-italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Zelles Serif';
+  src: url('zelles-serif-bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Zelles Serif';
+  src: url('zelles-serif-bolditalic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
